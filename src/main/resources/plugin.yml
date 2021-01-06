@@ -1,0 +1,8 @@
+name: MLGRush
+main: com.locydragon.mlgrush.MLGRush
+version: 1.0.0
+author: [LocyDragon]
+softdepend: [Multiverse-Core]
+commands:
+  rush:
+  cps:
