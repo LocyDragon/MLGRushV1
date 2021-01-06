@@ -89,7 +89,7 @@ public class RushCmdHandler implements CommandExecutor {
             }
             GameArea area = AreaLoader.getArea(areaName);
             switch (job) {
-                case " ":
+                case "MONITOR":
                     area.MONITOR = player.getLocation();
                     sender.sendMessage(RushInstances.RUSH_PREFIX + "观察者: √");
                     break;
